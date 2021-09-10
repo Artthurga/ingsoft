@@ -13,8 +13,15 @@ while ($num1 && $num2 && $num3 && $num4 && $num5 && $num6 > 0) {
     array_unique($numeros);
 
 Echo 'El mayor numero es: '. Max($numeros);
-Echo 'El mayor numero es: '. Min($numeros);
-echo </br>;
+echo "<br>";
+Echo 'El menor numero es: '. Min($numeros);
+
+$totalizador=$num1+ $num2 + $num3 + $num4 + $num5 + $num6;
+
+echo "<br>";
+
+echo "La suma de los numeros a evaluar es de  ".$totalizador;
+
 
 break;
 
