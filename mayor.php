@@ -13,6 +13,7 @@ while ($num1 && $num2 && $num3 && $num4 && $num5 && $num6 > 0) {
     array_unique($numeros);
 
 Echo 'El mayor numero es: '. Max($numeros);
+Echo 'El mayor numero es: '. Min($numeros);
 echo </br>;
 
 break;
